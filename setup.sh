@@ -2,7 +2,7 @@
 
 # Install some dependencies:
 sudo apt-get update
-sudo apt-get install -y git libsecret-1-dev build-essential cmake gcc-arm-none-eabi binutils-arm-none-eabi avr-libc binutils-arm-none-eabi libnewlib-arm-none-eabi libnewlib-dev libstdc++-arm-none-eabi-newlib
+sudo apt-get install -y git libsecret-1-dev build-essential cmake gcc-arm-none-eabi binutils-arm-none-eabi avr-libc binutils-arm-none-eabi libnewlib-arm-none-eabi libnewlib-dev libstdc++-arm-none-eabi-newlib nginx
 
 # Install Node.js:
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -

@@ -16,6 +16,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.customize ["modifyvm", :id, "--memory", "2048"]
   end
 
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+
   config.ssh.forward_agent = true
 
   config.vm.provision :shell, path: "setup.sh", privileged: false

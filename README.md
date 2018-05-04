@@ -16,6 +16,7 @@ sudo npm install -g supports-color
 
 # May need to try this twice; it's somewhat failure prone:
 pxt staticpkg -o /vagrant/pxt-adafruit-static
+cp -r /vagrant/pxt-adafruit-static/* /var/www/html
 ```
 
-You should now have a static build of MakeCode for Adafruit.
+Now load `http://localhost:8080` in a browser.
