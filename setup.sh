@@ -38,3 +38,5 @@ sudo npm link ../pxt-common-packages
 
 # Install missing supports-color dependency:
 # sudo npm install -g supports-color
+
+echo 'setup.sh completed'
